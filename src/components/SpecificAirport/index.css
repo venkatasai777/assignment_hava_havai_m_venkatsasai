@@ -1,0 +1,181 @@
+.specificAirportContainer {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+.options-container {
+    list-style-type: none;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid darkgray;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.eachList {
+    height: 100%;
+}
+.eachBtn {
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.selected {
+    height: 100%;
+    border-bottom: 2px solid black;
+}
+.terminalsList {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.eachTerminalCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 250px;
+    height: 60px;
+    border: 1px solid darkgray;
+    padding: 12px;
+    margin-right: 18px;
+}
+.leftCon {
+    width: 30%;
+    height: 100%;
+    margin-right: 4px;
+}
+.terminalImage {
+    width: 100%;
+    height: 100%;
+}
+.terminalDetailsCon {
+    width: 60%;
+    height: auto;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+.terminalHead {
+    margin-bottom: 2px;
+    padding-bottom: 0px;
+    margin-top: 3px;
+}
+.terminalContent {
+    margin-top: 2px;
+    padding-top: 0px;
+}
+.rightcon {
+    width: 10%;
+}
+.addMoreBtnCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    padding: 12px;
+    margin-right: 18px;
+}
+.addTerminalButton {
+    border: 1px solid black;
+    border-radius: 14px;
+    text-align: center;
+    background-color: transparent;
+    width: 154px;
+    height: 30px;
+    cursor: pointer;
+}
+.lostAndFoundConMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.servicesHeading {
+    margin-bottom: 44px;
+}
+.lostAndFoundCon {
+    width: 100%;
+    height: 20px;
+    border-bottom: 2px solid darkgray;
+    padding-bottom: 12px;
+}
+.lostAndFoundSec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 24px;
+}
+.inputFields1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.serviceNameCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 18px;
+}
+.serviceNameCon-label {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 6px;
+}
+.inputBoxStyling {
+    width: 160px;
+    height: 35px;
+    border-radius: 4px;
+    text-align: left;
+    padding-left: 4px;
+}
+.firstRowInputFields {
+    display: flex;
+    flex-direction: row;
+}
+.imageUploadCon {
+    width: 150px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: lightgray;
+    margin-top: 24px;
+}
+.imageLabel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+.saveBtn {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+.descriptionCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 18px;
+    margin-top: 24px;
+}
+.LoungeCss {
+    width: 100%;
+    height: 20px;
+    border-bottom: 2px solid darkgray;
+    padding-bottom: 12px;
+    margin-top: 32px;
+}
