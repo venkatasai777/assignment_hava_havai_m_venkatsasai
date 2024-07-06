@@ -29,7 +29,7 @@ const SpecificAirport = () => {
                     <EachTerminal key="1" />
                     <EachTerminal key="2" />
                     <li className='addMoreBtnCon'>
-                        <button className='addTerminalButton' type='button' onClick={onClickAddMoreBtn}> + Add Terminal</button>
+                        <button className='addTerminalButton' type='button' > + Add Terminal</button>
                     </li>
                 </ul>
                 
